@@ -1,3 +1,5 @@
+package Lesson2;
+
 import java.lang.reflect.Array;
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -5,6 +7,8 @@ import java.util.regex.Pattern;
 
 public class Lesson1 {
     public static void main(String[] args) {
+        Boolean aa;
+        aa = true;
         Scanner scannerIncomingData = new Scanner(System.in);
         System.out.println("Введите строку и нажмите Enter, пожалуйста.");
         String incString = scannerIncomingData.nextLine();
